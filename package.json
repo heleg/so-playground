@@ -1,0 +1,16 @@
+{
+  "name": "so-playground",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start:front": "yarn workspace frontend start",
+    "start:back": "yarn workspace backend start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
